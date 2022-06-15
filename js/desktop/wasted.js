@@ -33,7 +33,7 @@ class wasted extends Phaser.Scene {
     });
 
     const button1 = this.add.sprite(150, 650, "button").setInteractive();
-    const button2 = this.add.sprite(450, 650, "button2").setInteractive();
+    const button2 = this.add.sprite(450, 650, "button").setInteractive();
 
     const border = this.add.sprite(this.border, 650, "border");
 

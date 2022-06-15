@@ -28,7 +28,7 @@ class gameplay3 extends Phaser.Scene {
     });
 
     this.add.sprite(150, 650, "button").setInteractive();
-    this.add.sprite(450, 650, "button2").setInteractive();
+    this.add.sprite(450, 650, "button").setInteractive();
     const border = this.add.sprite(this.border, 650, "border");
 
     const ding1 = this.add.image(150, 650, "glasses");

@@ -13,7 +13,6 @@ class introM extends Phaser.Scene {
     this.load.image("words", "/assets/Choose-your-dress.png");
     this.load.image("frame", "/assets/choose.png");
     this.load.image("button", "/assets/button.png");
-    this.load.image("button2", "/assets/button2.png");
     this.load.image("dress1", "/assets/dress1.png");
     this.load.image("dress2", "/assets/dress2.png");
     this.load.image("hend", "/assets/hendOfGode.png");
